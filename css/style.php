@@ -3,8 +3,6 @@
 		font-family: 'Montserrat', sans-serif;
 		font-size: 17px;
 		overflow:hidden;
-		padding: 0;
-		margin: 0;
 	}
 	.transition{
 		-webkit-transition: all 0.5s ease;
