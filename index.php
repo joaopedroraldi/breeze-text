@@ -24,6 +24,10 @@
 	<base href="<?php echo RAIZ ?>" />
 
 	<?php include('css/style.php'); ?>
+
+	<style type="text/css">
+		<?php echo file_get_contents('css/font-awesome/css/font-awesome.min.css'); ?>
+	</style>
 	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,6 +39,8 @@
 
 <body>
 	<textarea class="main"></textarea>
+
+	<div class="control-panel"></div>
 
 	<div class="version transition">Versão: 1.0</div>
 	<script type="text/javascript">
