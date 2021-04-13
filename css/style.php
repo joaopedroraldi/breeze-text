@@ -14,12 +14,12 @@
 		transition: all 0.5s ease;
 	}
 
-	body::-webkit-scrollbar{
+	textarea.main::-webkit-scrollbar{
 		background:#ddd !important;
 		width:10px;
 	}
 
-	body::-webkit-scrollbar-thumb{
+	textarea.main::-webkit-scrollbar-thumb{
 		background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8))!important;width:40px;border-radius:3px !important;
 		box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25)
 	}
