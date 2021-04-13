@@ -44,6 +44,10 @@
 		<div class="control-panel-toggle">
 			<i class="fa fa-plus"></i>
 		</div>
+
+		<div class="control font-size">
+			Font Size: <button>+</button> <button>-</button>
+		</div>
 	</div>
 
 	<div class="version transition">Versão: 1.0</div>

@@ -101,10 +101,10 @@
 		width: 100%;
 		color: #fff;
 	}
-	.control span {
-		margin-left: 15px;
-	}
-	.control.font-size {
-		
+	.control.font-size button {
+		cursor: pointer;
+		margin-left: 10px;
+		height: 24px;
+		width: 24px;
 	}
 </style>

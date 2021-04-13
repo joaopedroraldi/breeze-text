@@ -5,8 +5,14 @@ $(document).ready(function(){
 		textareaAutoHeight();
 	});
 
+	$(document).on('click', '.control.font-size button', function(){
+		var actualSize = parseInt($('textarea.main').css('font-size'));
+		var updateSize = $(this).text() == "+" ? (actualSize + 1) : (actualSize - 1);
 
-	
+		$('textarea.main').css({
+			fontSize: updateSize
+		})
+	});
 	setTimeout(function(){
 		controlPanelToggle();
 	}, 500);
