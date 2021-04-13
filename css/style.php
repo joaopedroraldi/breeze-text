@@ -4,6 +4,7 @@
 		font-size: 17px;
 		overflow:hidden;
 		padding: 0;
+		margin: 0;
 	}
 	.transition{
 		-webkit-transition: all 0.5s ease;
@@ -42,13 +43,15 @@
 	}
 	textarea.main {
 		float: left;
-		width: 100%;
-		margin: -10px 0 0 -10px;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
 		padding: 20px;
 		color: #fff;
 		background: transparent;
-		border: none;
+		border: solid 1px #ccc;
 		resize: none;
+		box-sizing: border-box;
 	}
 	.version {
 		position: fixed;

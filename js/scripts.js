@@ -18,9 +18,13 @@ $(document).ready(function(){
 });
 
 function textareaAutoHeight() {
-    var height = $(window).outerHeight() - 39;
-    console.log(height);
-    $("textarea.main").css({ height: height });
+    var height = $(window).outerHeight();
+    var marginTop = height * 0.1;
+
+    $("textarea.main").css({
+    	height: (height * 0.8),
+    	marginTop: marginTop
+    });
 }
 
 function controlPanelToggle() {
