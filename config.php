@@ -18,7 +18,7 @@
 	date_default_timezone_set('America/Sao_Paulo');
 
 
-	$pasta = "/breeze-text/";
+	$pasta = "/breeze-sssssssstext/";
 	define('RAIZ', "{$pasta}");
 	define('RAIZ_UP', "{$pasta}uploads/");
 ?>
