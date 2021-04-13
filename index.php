@@ -40,7 +40,11 @@
 <body>
 	<textarea class="main"></textarea>
 
-	<div class="control-panel"></div>
+	<div class="control-panel">
+		<div class="control-panel-toggle">
+			<i class="fa fa-plus"></i>
+		</div>
+	</div>
 
 	<div class="version transition">Versão: 1.0</div>
 	<script type="text/javascript">

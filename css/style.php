@@ -2,7 +2,7 @@
 	body{
 		font-family: 'Montserrat', sans-serif;
 		font-size: 17px;
-		overflow-x:hidden;
+		overflow:hidden;
 		padding: 0;
 	}
 	.transition{
@@ -48,6 +48,7 @@
 		color: #fff;
 		background: transparent;
 		border: none;
+		resize: none;
 	}
 	.version {
 		position: fixed;
@@ -64,5 +65,43 @@
 	.version:hover {
 		border-color: #fff;
 		color: #fff;
+	}
+	.control-panel {
+		position: absolute;
+		right: 30px;
+		bottom: 0;
+		width: 200px;
+		border: solid 1px #fff;
+		border-bottom: none;
+		background: #000;
+		padding: 15px;
+		border-radius: 10px 0 0 0;
+	}
+	.control-panel-toggle {
+		position: absolute;
+		right: -1px;
+		top: -27px;
+		border: solid 1px #fff;
+		border-bottom: none;
+		border-radius: 10px 10px 0 0;
+		background: #000;
+		color: #fff;
+		width: 30px;
+		height: 26px;
+		line-height: 30px;
+		text-align: center;
+		font-size: 12px;
+		cursor: pointer;
+	}
+	.control {
+		float: left;
+		width: 100%;
+		color: #fff;
+	}
+	.control span {
+		margin-left: 15px;
+	}
+	.control.font-size {
+		
 	}
 </style>
