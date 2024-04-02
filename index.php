@@ -52,7 +52,7 @@
 
 	<div class="version transition">Versão: 1.0</div>
 	<script type="text/javascript">
-		<?php echo file_get_contents('js/jquery.js'); ?>
+		<?php echo file_get_contents('js/jquery.3.7.0.js'); ?>
 		<?php echo file_get_contents('js/scripts.js'); ?>
 	</script>
 </body>
